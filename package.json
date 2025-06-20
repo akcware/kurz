@@ -36,6 +36,7 @@
     "@types/fluent-ffmpeg": "^2.1.27",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "dotenv": "^16.5.0",
     "ffmpeg-static": "^5.2.0",
     "fluent-ffmpeg": "^2.1.3",
     "lucide-react": "^0.516.0",
@@ -70,6 +71,10 @@
     "tw-animate-css": "^1.3.4",
     "typescript": "^5.8.3",
     "vite": "^6.2.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akcware/kurz"
   },
   "pnpm": {
     "onlyBuiltDependencies": [

@@ -7,8 +7,13 @@ import { nodewhisper } from 'nodejs-whisper'
 import ffmpeg from 'fluent-ffmpeg'
 import ffmpegStatic from 'ffmpeg-static'
 import OpenAI from 'openai'
+import dotenv from 'dotenv'
+
+dotenv.config()
 
 const openai = new OpenAI()
+
+console.log('API Key:', process.env.OPENAI_API_KEY)
 
 interface WhisperApiResponse {
   text: string
